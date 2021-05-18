@@ -1,0 +1,42 @@
+
+.d-flex{
+  display: flex;
+  width: 100%;
+  
+}
+
+.column{
+  flex-direction: column;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+
+.app {
+
+  h3{
+    margin: 5px 0;
+  }
+ 
+  .divider{
+    flex: 0 0 44.2%;
+    margin: 20px 0;
+  }
+  .nav{
+    list-style-type: none;
+    display:flex;
+    align-items: center;
+  }
+  margin: 10px;
+
+}

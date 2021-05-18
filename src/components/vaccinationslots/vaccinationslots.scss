@@ -1,0 +1,80 @@
+.border-yellow {
+  border-left: 5px solid yellowgreen;
+}
+
+.border-green {
+  border-left: 5px solid green;
+}
+
+.row-space {
+  margin-bottom: 10px;
+}
+
+.vaccine-slots {
+ .container{
+   margin-top: 50px;
+ }
+
+  .nav-pills .nav-link.active{
+    background-color: transparent;
+  }
+  .nav-item {
+    margin-right: 10px;
+    margin-top:5px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    font-size: 12px;
+    padding:5px;
+  }
+
+  .age-limit, .slot-date, .vaccine-type{
+    color: black;
+
+  }
+
+  .capacity{
+    background-color: green;
+    border-radius: 50px;
+    color: white;
+  }
+ 
+  p {
+    margin: 0;
+    padding: 0;
+  }
+
+  .col-address{
+    width:25%;
+    margin-right:10px;
+    padding-left:10px;
+    padding-top:14px;
+  }
+  .col-slots{
+    width: 75%;
+  }
+  .header{
+    text-align: center;
+    margin:10px 0;
+    padding: 5px;
+    
+  }
+  .header{
+    p{
+      background-color: lightgray;
+      padding:10px;
+      border-radius: 5px;
+    }
+  }
+
+  .vaccineType{
+    border: 1px solid black;
+    color: honeydew;
+  }
+  .Paid{
+    background-color: yellow;
+  }
+  .Free{
+    background-color: green;
+  }
+}

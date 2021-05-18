@@ -1,0 +1,85 @@
+// @import "node_modules/bootstrap/scss/functions";
+// @import "node_modules/bootstrap/scss/variables";
+// @import "node_modules/bootstrap/scss/mixins/_breakpoints";
+@import "../../scss/utiliites.scss";
+.filters {
+  // display: flex;
+  // flex-direction: column;
+  // align-items: center;
+
+  .bp3-radio + .bp3-radio,
+  .fullwidth + .fullwidth {
+    margin-left: 16px;
+  }
+
+  .bp3-popover-target > div {
+    width: 100%;
+  }
+
+  .bp3-popover-wrapper.fullwidth,
+  .bp3-popover-wrapper.fullwidth > .bp3-popover-target {
+    display: flex;
+    @include width400;
+  }
+
+  /* with portal */
+  .bp3-overlay.fullwidth .bp3-select-popover {
+    @include width400;
+  }
+
+  /* without portal */
+  .bp3-popover-wrapper.fullwidth .bp3-select-popover {
+    @include width400;
+  }
+
+  .bp3-popover .bp3-popover-content {
+    max-height: 400px;
+    overflow-y: scroll;
+  }
+
+  .pincode {
+    @include width400;
+  }
+
+  .btn-search{
+    margin-top: 12px;
+  }
+
+  // .bp3-popover-wrapper.fullwidth,
+  // .bp3-popover-wrapper.fullwidth > .bp3-popover-target {
+  //   display: block;
+  //   max-width: var(--select-width);
+  // }
+
+  // /* with portal */
+  // .bp3-overlay.fullwidth .bp3-select-popover {
+  //   width: var(--select-width);
+  // }
+
+  // /* without portal */
+  // .bp3-popover-wrapper.fullwidth .bp3-select-popover {
+  //   width: var(--select-width);
+  // }
+
+  // .searchby {
+  //   text-align: center;
+  // }
+
+  // .radio {
+  //   margin-right: 10px;
+  // }
+
+  // .search-align {
+  //   text-align: right;
+  // }
+
+  // // @include media-breakpoint-down(sm) {
+  // //   .filter-sm-row {
+  // //     display: flex;
+  // //     justify-content: space-around;
+  // //   }
+  // //   .search-align {
+  // //     text-align: center;
+  // //   }
+  // // }
+}

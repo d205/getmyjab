@@ -1,0 +1,7 @@
+:root {
+  --select-width: 0 0 400px;
+}
+
+@mixin width400 {
+  flex: var(--select-width);
+}
