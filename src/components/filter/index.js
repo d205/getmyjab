@@ -25,7 +25,7 @@ function Filters({ beginSearch }) {
   const [whichDose, setWhichDose] = useState(DOSE.Dose1);
   const [pinCode, setPinCode] = useState("");
   const [selectedDistrictId, setCity] = useState("");
-  const [states, setStates] = useState(States);
+  const [states] = useState(States);
 
   const [selectedState, setSelectedState] = useState(defaultStateName);
   const [cities, setCities] = useState(defaultSelectedCities);
