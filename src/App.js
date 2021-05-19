@@ -8,7 +8,6 @@ import { VaccinationSlots } from "./components/vaccinationslots";
 import { getDataByCity, getDataByPinCode } from "./services/getData";
 import {
   AGEGROUP,
-  DOSE,
   SEARCHTYPE,
   VACCINETYPE,
   AGEGROUPLABEL,

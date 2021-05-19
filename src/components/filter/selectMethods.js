@@ -33,7 +33,7 @@ export const renderState = (state, { handleClick, modifiers, query }) => {
 };
 
 function escapeRegExpChars(text) {
-  return text.replace(/([.*+?^=!:${}()|\[\]\/\\])/g, "\\$1");
+  return text.replace(/([.*+?^=!:${}()|[\]/\\])/g, "\\$1");
 }
 
 export const filterDistrict = (query, district) => {
